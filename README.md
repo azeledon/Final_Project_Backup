@@ -1,39 +1,50 @@
-# Final_Project_Backup
+# Sales Analysis
+
+## Project Overview
+
+In today's highly competitive e-commerce market, businesses need to have a comprehensive understanding of their customers, sales trends, and product performance to remain successful. The goal of this project is to analyze e-commerce sales data using various analytical techniques and tools to gain insights into customer behavior, sales trends, and revenue generation. Furthermore, the insights gained from this project will help e-commerce businesses identify their top-performing products, target their marketing efforts more effectively, and optimize their sales strategies to increase revenue and customer satisfaction.
+
+## Data Description
+
+The dataset used in this project includes information about customer orders and sales transactions. The data is organized into four main tables: customer information, order details, product information, and sales transactions. By analyzing this data, we can answer a variety of business-related questions and make informed decisions to improve sales performance. To achieve this goal, we will use several programming languages and tools, including SQL, Python, R, and Tableau, to extract, clean, transform, and visualize the data. This project will follow a structured methodology that includes data exploration, data preparation, data analysis, and data visualization.
+
+## Objectives
+
+1. Analyze the customer behavior and trends.
+2. Determine the popular products and categories.
+3. Identify the revenue generation patterns and trends.
+4. Create predictive models to forecast future sales, customer churn, and customer lifetime value.
+
+## Methodology
+
+- Data Exploration: Explore the customer orders and sales data to identify any patterns, trends, or outliers that may be useful for analysis using Python and SQL.
+- Data Cleaning: Clean and preprocess the data, including handling missing or invalid values, converting data types, and merging tables as needed using Python and SQL.
+- Data Analysis: Conduct exploratory data analysis and perform statistical analysis to identify key insights and trends in the data using Python and SQL.
+- Predictive Modeling: Build predictive models using regression, clustering, and other machine learning techniques to forecast future sales, customer churn, and customer lifetime value using Python and SQL.
+- Visualization: Use Tableau to create interactive and dynamic visualizations that effectively communicate key findings and insights from the data analysis and predictive modeling.
+- Reporting: Compile a comprehensive report summarizing the data analysis and predictive modeling results, including key insights, conclusions, and recommendations for future actions.
 
 ## Roles
 
-- Ana: POC/PgAdmin/SQL 
-- Diana: Contributor/Tableau
-- Katelin: Contributor/Python/PgAdmin/SQL
-- Natalia: Contributor/R or Python.
+- Ana: Project Manager/Data Analyst 
+- Diana: Tableau Developer
+- Katelin: Data Analyst
+- Natalia: Data Scientist
 
-## Role Description Based on the Sequence of Events:
+## Role Description 
 
-- Ana will create the main repository, POC, and set up PgAdmin and SQL.
-- Katelin will contribute to the project by working with PgAdmin and SQL.
-- Ana, Katelin, Diana, and Natalia will collaborate to analyze the data and answer the project questions using SQL, Python, and/or R.
-- Ana will be responsible for maintaining the main repository, merging pull requests, and ensuring the project stays organized.
-- Diana will create data visualizations using Tableau to help communicate the team's findings.
-- Natalia will contribute to the project by developing predictive models using R or Python.
-- The team will work together to review and improve each other's work, ensuring that the project meets the desired quality standards.
-- Finally, the team will present their findings and predictions to the class.
+- **Data Analyst:** This person will be responsible for exploring and analyzing the customer orders and sales data to identify any patterns, trends, or outliers that may be useful for analysis. They will also clean and preprocess the data, including handling missing or invalid values, converting data types, and merging tables as needed. The Data Analyst will use programming languages such as Python and SQL to conduct exploratory data analysis and perform statistical analysis. They will collaborate with the other team members to identify key insights and trends in the data and provide recommendations based on their findings.
 
-## Segment 1: 
+- **Data Scientist:** This person will be responsible for building predictive models using regression, clustering, and other machine learning techniques to forecast future sales, customer churn, and customer lifetime value. They will use programming languages such as Python and R to develop these models and test their accuracy. The Data Scientist will collaborate with the Data Analyst to ensure that the data is clean and properly prepared for modeling. They will also work closely with the Tableau Developer to create interactive visualizations that effectively communicate the results of the predictive modeling.
 
-### Requirements for Segment 1
+- **Tableau Developer:** This person will be responsible for creating interactive and dynamic visualizations using Tableau that effectively communicate key findings and insights from the data analysis and predictive modeling. They will work closely with the Data Analyst and Data Scientist to identify the most important insights to communicate and the best way to display them. The Tableau Developer will also create a dashboard that provides a comprehensive overview of the data analysis and predictive modeling results.
 
-- A detailed README.md file (Ana)
-- A database that stores at least two tables (or collections) for the project (Ana and Katelin) 
+- **Project Manager:** This person will be responsible for managing the overall project and ensuring that it is completed on time and within budget. They will work closely with all team members to ensure that each person's role is clearly defined and that everyone is meeting their deadlines. The Project Manager will also communicate with stakeholders to provide regular updates on the project's progress and ensure that their needs are being met.
 
-### Presentation
-
-- The selected topic and the reasoning for that selection (Katelin)
-
-- A description of the data (Diana)
-
-- The questions that the team plans to answer with the project (Ana, Natalia)
+## Questions that the team plans to answer with the project (Ana, Natalia)
 
 **Ana:**
+
 - What is the total number of customers in each city?
 - What is the total revenue generated by each product type?
 - How many orders were delivered late in each state?
@@ -52,7 +63,7 @@
 - Which customers have made at least one purchase of a product with a price greater than $500?
 - What is the total revenue generated by each product type and customer gender during a specific time period?
 
-## PREDICTION QUESTIONS
+**Prediction Questions**
 
 - Predict the total revenue for the next month by product type.
 - Predict the customer with the highest total revenue in the next year.
