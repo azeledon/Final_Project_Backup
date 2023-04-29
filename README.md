@@ -83,7 +83,7 @@ The dataset used in this project includes information about customer orders and 
 
 - **Checking for duplicates:** We looked for any duplicate records in the datasets using Python tools like Pandas. Duplicate records can impact the accuracy of analysis; therefore, it is  essential to remove them.
 
-- **Checking for missing values:
+- **Checking for missing values:**
 
 - **Checking for outliers:** 
 
